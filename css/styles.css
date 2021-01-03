@@ -1,19 +1,19 @@
 h1 {
     font-family: 'ZCOOL XiaoWei', 'Open sans';
     font-size: 30px;
-    font-weight: bold;
+    color: rgb(7, 8, 8);
 }
 
 h2 {
     font-family: 'Roboto', 'Open sans';
     font-size: 20px;
-    
+    color: rgb(56, 53, 53);
 }
 
 h3 {
     font-family: 'Monteserrat', 'Open sans';
     font-size: 20px;
-    font-weight: bolder;
+    color: rgb(56, 53, 53);
 }
 
 body {
@@ -21,11 +21,15 @@ body {
     font-size: 12px;
 }
 
-.header {
-    background-image: linear-gradient(#1e2be2,rgb(71, 71, 252),lightblue);
+.navbar {
+    background-image: linear-gradient(to right, darkblue,blue, rgb(98, 208, 245));
 }
 
-.homeLogo {
-    width: 10px;
-    height: 10px;
+.jumbotron {
+    margin: 0;
+    background-image: linear-gradient(#2a36d8,#4965e2,rgb(142, 198, 250));
+}
+
+.intro{
+    margin: 0;
 }
