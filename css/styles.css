@@ -16,13 +16,15 @@ h3 {
     color: rgb(56, 53, 53);
 }
 
-body {
+p {
     font-family: 'Montserrat', serif;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .navbar {
-    background-image: linear-gradient(to right, darkblue,blue, rgb(98, 208, 245));
+    background-image: linear-gradient(to right, #2a36d8,blue, rgb(98, 208, 245));
+    font-size: 20px;
+    font-family: 'Roboto', 'Open sans';
 }
 
 .jumbotron {
@@ -30,6 +32,30 @@ body {
     background-image: linear-gradient(#2a36d8,#4965e2,rgb(142, 198, 250));
 }
 
-.intro{
-    margin: 0;
+.breadcrumb {
+    background-image: linear-gradient(to right,rgb(98, 208, 245), blue, #2a36d8);
+    font-size: 20px;
 }
+
+footer {
+    background-color: rgb(250, 244, 244);
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    padding-top: 3rem;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+  body {
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+  }
